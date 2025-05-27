@@ -1,4 +1,6 @@
-Hier ist eine Zusammenfassung der Befehle, die du auf einem anderen PC ausführen musst, um deinen ROS 2 Code von GitHub zum Laufen zu bringen:1. ROS 2 Installation (falls noch nicht vorhanden):Installiere ROS 2 Humble Hawksbill gemäß der offiziellen Anleitung für dein Betriebssystem.
+Hier ist eine Zusammenfassung der Befehle, die du auf einem anderen PC ausführen musst, um deinen ROS 2 Code von GitHub zum Laufen zu bringen:
+
+1. ROS 2 Installation (falls noch nicht vorhanden):Installiere ROS 2 Humble Hawksbill gemäß der offiziellen Anleitung für dein Betriebssystem.
 
 2. ROS 2 Workspace einrichten:mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
