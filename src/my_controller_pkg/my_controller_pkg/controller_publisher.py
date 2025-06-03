@@ -19,10 +19,10 @@ class ControllerPublisher(Node):
         self.get_logger().info('Controller publisher node started.')
 
     def joy_callback(self, msg):
-     # Linker Stick vertikal (Achse 1): Vorwärts (+) / Rückwärts (-)
+     # fuer PS4-Controller Linker Stick vertikal (Achse 1): Vorwärts (+) / Rückwärts (-) | fuer Xbox-Controller: Linker Stick vertikal (Achse 1): Vorwärts (+) / Rückwärts (-)
      forward_backward = msg.axes[1]
 
-     # Rechter Stick horizontal (Achse 2): Rechts (+) / Links (-)
+     # fuer PS4-Controller: Rechter Stick horizontal (Achse 2): Rechts (+) / Links (-) | fuer Xbox-Controller: Rechter Stick horizontal (Achse 3): Rechts (+) / Links (-)
      turn =-msg.axes[2]
 
      # Erstelle eine Nachricht mit den Steuerbefehlen
